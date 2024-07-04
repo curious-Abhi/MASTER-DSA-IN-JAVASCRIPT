@@ -29,7 +29,7 @@
 
 // for , for..of, for each
 
-let fruits=["banana","apple","mango","litchi","pears"]
+// let fruits=["banana","apple","mango","litchi","pears"]
 //using for loop
 // for(let i=0; i<fruits.length; i++){
 //     console.log(fruits[i])
@@ -42,13 +42,44 @@ let fruits=["banana","apple","mango","litchi","pears"]
 
 //using forEach
 
-fruits.forEach((fruit)=>{
-    console.log(fruit)
-})
+// fruits.forEach((fruit)=>{
+//     console.log(fruit)
+// })
 
 //practice problem1.
 // Problem 1: Create an array and access its elements
 // Task: Create an array of your favorite fruits and print each fruit using its index.
 
-// Problem 2: Write a function to find the maximum and minimum elements in an array
+// let fav_fruits=["apple","banana","pears","oraange"]
+// console.log(fav_fruits[0])
+// console.log(fav_fruits[1])
+// console.log(fav_fruits[2])
+// console.log(fav_fruits[3])
+
+
+//Problem 2: Write a function to find the maximum and minimum elements in an array
 // Task: Write a function findMaxMin that takes an array of numbers and returns the maximum and minimum values.
+
+function findMaxMin(arr){
+    let min=max=arr[0]
+
+    for(let i=0; i<arr.length;i++){
+       if(arr[i]>max){
+        max=arr[i]
+       }
+       if(arr[i]<min){
+        min=arr[i]
+       }
+
+
+
+    
+    }
+       return{max,min};
+    
+}
+//example
+
+let numbers=[3,7,3,6,8,12,45]
+let result=findMaxMin(numbers)
+console.log(result)
