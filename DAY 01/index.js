@@ -60,26 +60,26 @@
 //Problem 2: Write a function to find the maximum and minimum elements in an array
 // Task: Write a function findMaxMin that takes an array of numbers and returns the maximum and minimum values.
 
-function findMaxMin(arr){
-    let min=max=arr[0]
+// function findMaxMin(arr){
+//     let min=max=arr[0]
 
-    for(let i=0; i<arr.length;i++){
-       if(arr[i]>max){
-        max=arr[i]
-       }
-       if(arr[i]<min){
-        min=arr[i]
-       }
+//     for(let i=0; i<arr.length;i++){
+//        if(arr[i]>max){
+//         max=arr[i]
+//        }
+//        if(arr[i]<min){
+//         min=arr[i]
+//        }
 
 
 
     
-    }
-       return{max,min};
+//     }
+//        return{max,min};
     
-}
-//example
+// }
+// //example
 
-let numbers=[3,7,3,6,8,12,45]
-let result=findMaxMin(numbers)
-console.log(result)
+// let numbers=[3,7,3,6,8,12,45]
+// let result=findMaxMin(numbers)
+// console.log(result)
