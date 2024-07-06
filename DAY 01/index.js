@@ -82,4 +82,4 @@
 
 // let numbers=[3,7,3,6,8,12,45]
 // let result=findMaxMin(numbers)
-// console.log(result)
+console.log(result)
